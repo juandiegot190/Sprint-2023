@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../IMG/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.users-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.users-form form input {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.users-form form input[type=text],
+.users-form form input[type=password],
+.users-form form input[type=email] {
+    padding: 8px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: .3s;
+}
+
+.users-form form input[type=text]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 6px 0 dodgerBlue;
+}
+
+.users-form form input[type=submit] {
+    border: none;
+    padding: 12px 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid #60a100;
+}
+
+.users-form form input[type=submit]:hover {
+    background-color: #60a100;
+    color: white;
+}
+
+
+/* style.css */
+
+.users-table {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #f9f9f9;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.users-table--edit,
+.users-table--delete {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.users-table--edit {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.users-table--delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button1:hover {
+    background-color: #45a049;
+}
+
+.button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.button1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../IMG/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.encabezado {
+    position: fixed;
+    /* Fija el encabezado en la parte superior */
+    top: 0;
+    /* Lo coloca en la parte superior */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    z-index: 999;
+}
+
+.nombre_compania {
+    margin: 0;
+    font-size: 24px;
+    flex-grow: 1;
+    /* Expande el espacio en blanco restante horizontalmente */
+    text-align: center;
+}
+
+.quienes_somos {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.quienes_somos:hover {
+    background-color: #0056b3;
+}
+
+.login_container {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo transparente */
+    padding: 20px;
+    border-radius: 5px;
+    transform: translateZ(20px);
+    /* Efecto 3D con traslación en el eje Z */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Sombra para resaltar */
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Agrega transiciones para suavizar el efecto */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-containeru {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-containerc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-containeru input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    /* Línea inferior azul */
+    background: transparent;
+    /* Fondo transparente */
+    outline: none;
+    /* Elimina el borde de enfoque predeterminado */
+    transition: border-color 0.3s;
+    /* Transición suave del color del borde */
+}
+
+.input-containerc input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    /* Línea inferior azul */
+    background: transparent;
+    /* Fondo transparente */
+    outline: none;
+    /* Elimina el borde de enfoque predeterminado */
+    transition: border-color 0.3s;
+    /* Transición suave del color del borde */
+}
+
+.label-containeru label {
+    text-align: left;
+    width: 100%;
+}
+
+.label-containerc label {
+    text-align: left;
+    width: 100%;
+}
+
+.input-containeru input:focus {
+    border-color: #0056b3;
+    /* Línea inferior azul más oscuro al enfocar */
+}
+
+.input-containerc input:focus {
+    border-color: #0056b3;
+    /* Línea inferior azul más oscuro al enfocar */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

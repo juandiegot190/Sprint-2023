@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/insertar_usuario.css">
+
+    <title>Creación de Usuarios</title>
+</head>
+
+<body>
+    <div id="contenedor_insertar_usuario">
+        <h1>Ingresa un Usuario</h1>
+        <form method="POST" action="../insertar_usuario.php">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required><br>
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" required><br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contraseña" required><br>
+
+            <label for="id_cargo">ID Cargo:</label>
+            <select name="id_cargo" required>
+                <option value="1">1 - Admin Sucursal1</option>
+                <option value="2">2 - Admin Sucursal2</option>
+                <option value="3">3 - Admin Sucursal3</option>
+                <option value="4">4 - Admin Sucursal4</option>
+                <option value="5">5 - Admin Sucursal5</option>
+                <option value="6">6 - Usuario</option>
+            </select><br>
+
+            <input type="submit" value="Insertar Usuario">
+
+        </form>
+        <center><a href="../index.html"><button class="quienes_somos">Cerrar sesion</button></a> </center>
+
+    </div>
+</body>
+
+</html>

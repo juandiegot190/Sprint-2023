@@ -1,0 +1,76 @@
+/* Establece la fuente y el fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../IMG/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto establece la altura de la vista al 100% del alto de la ventana */
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    color: #000000; /* Cambia el color del texto a azul */
+}
+
+/* Estilo para las etiquetas de los campos de entrada */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Cambia el color del texto de la etiqueta */
+}
+
+/* Estilo para los campos de entrada de texto y contraseña */
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el menú desplegable */
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+/* Cambia el color del botón al pasar el cursor sobre él */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+
+/* Estilo para el formulario en general */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
